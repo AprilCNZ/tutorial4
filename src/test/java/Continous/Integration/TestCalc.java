@@ -19,4 +19,11 @@ public class TestCalc
         Calc calc = new Calc();
         assertEquals(calc.add(2,2), 4);
     }
+   
+    @Test
+    public void testSubtract()
+    {
+        Calc calc = new Calc();
+        assertEquals(calc.subtract(4,2), 2);
+    }
 }
